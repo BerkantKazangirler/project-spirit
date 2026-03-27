@@ -1,0 +1,7 @@
+{
+  "bkzs_metadata": {
+    "signal_integrity": "high",
+    "sync_status": "verified",
+    "atomic_clock_offset": "0.002ns"
+  }
+}

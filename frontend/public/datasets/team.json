@@ -1,0 +1,50 @@
+{
+  "mission_id": "TUA-ANKA-2026-001",
+  "teams": [
+    {
+      "id": "TEAM-01",
+      "name": "Anka Arama Kurtarma",
+      "type": "SAR",
+      "assigned_region": "Antakya/Merkez",
+      "current_coords": [36.1, 35.85],
+      "target_coords": [36.12, 35.89],
+      "status": "on_route",
+      "personnel_count": 8,
+      "equipment": ["Thermal Camera", "Acoustic Sensors", "Drone"],
+      "bkzs_sync": {
+        "status": "active",
+        "last_sync": "2026-03-28T14:35:00Z"
+      }
+    },
+    {
+      "id": "TEAM-02",
+      "name": "Umay Sağlık Destek",
+      "type": "MEDICAL",
+      "assigned_region": "Defne/Sümerler",
+      "current_coords": [36.11, 35.87],
+      "target_coords": [36.13, 35.9],
+      "status": "at_location",
+      "personnel_count": 5,
+      "equipment": ["Mobile Clinic", "Tele-Medicine Kit"],
+      "bkzs_sync": {
+        "status": "active",
+        "last_sync": "2026-03-28T14:34:45Z"
+      }
+    },
+    {
+      "id": "TEAM-03",
+      "name": "Pars Lojistik",
+      "type": "LOGISTICS",
+      "assigned_region": "Antakya/Cebrail",
+      "current_coords": [36.08, 35.82],
+      "target_coords": [36.1, 35.85],
+      "status": "preparing",
+      "personnel_count": 12,
+      "equipment": ["Heavy Machinery", "Fuel Supply"],
+      "bkzs_sync": {
+        "status": "standby",
+        "last_sync": "2026-03-28T14:30:00Z"
+      }
+    }
+  ]
+}
