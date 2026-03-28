@@ -1,5 +1,5 @@
-import { fetchMissionData } from "./utils";
-import Map from "./components";
+import { fetchMissionData } from "@/utils";
+import Map from "@/components";
 
 export default function App() {
   const inputPromise = fetchMissionData();

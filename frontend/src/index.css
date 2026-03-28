@@ -9,8 +9,17 @@ body,
   margin: 0;
 }
 
-#map-container {
-  height: 100vh;
+#map {
   width: 100%;
-  background-color: lightgrey;
+  height: 100vh;
+}
+
+.bkzs-marker {
+  width: 20px;
+  height: 20px;
+  background-color: #3b82f6;
+  border: 2px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(59, 130, 246, 0.8);
 }

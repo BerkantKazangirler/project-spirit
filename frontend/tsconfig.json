@@ -13,8 +13,8 @@
     "composite": true,
     "paths": {
       "@/*": ["./src/*", "./*"],
-      "@/utils": ["./utils/index.ts"],
-      "@/utils/*": ["./utils/*"]
+      "@/pages": ["./src/pages/index.ts"],
+      "@/pages/*": ["./src/pages/*"]
     }
   }
 }
