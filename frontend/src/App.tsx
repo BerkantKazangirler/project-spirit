@@ -1,4 +1,5 @@
-import { fetchMissionData } from "@/utils";
+import { fetchMissionData } from "./utils";
+import Map from "./components";
 
 export default function App() {
   const inputPromise = fetchMissionData();
@@ -7,5 +8,5 @@ export default function App() {
     inputPromise.then((data: any) => console.log(data)),
   );
 
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return <Map />;
 }
